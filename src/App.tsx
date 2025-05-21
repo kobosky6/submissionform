@@ -1,18 +1,13 @@
 
-import './App.css'
-import UserForm from './Forms'
 
+import UserForm from './Forms';
 
 function App() {
-  
-
   return (
-    <>
-      <UserForm/>
-
-     
-    </>
-  )
+    // <div className="min-h-screen bg-white flex items-center justify-center px-4 py-10">
+      <UserForm />
+    // </div>
+  );
 }
 
-export default App
+export default App;
